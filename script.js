@@ -8,7 +8,9 @@ var pinkrain = 0;
 var greenrain = 104;
 var bluerain = 207;
 var purplerain = 255;
+
 var colorrain = bluerain;
+
 var M = {
         settings: {
             COL_WIDTH: 20,
