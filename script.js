@@ -1,14 +1,14 @@
 
-var customMessages = "DEVOPSDAYS";
+var customMessages = "DEVOPS";
 var customMessages1 = "BOISE";
 var customMessages2 = "MICRON";
-var customMessages3 = "BATTLE WOUNDS";
+var customMessages3 = "HELLO WORLD";
 var customMessages4 = "JANEMICELI";
 var pinkrain = 0;
 var greenrain = 104;
 var bluerain = 207;
 var purplerain = 255;
-var colorrain = greenrain;
+var colorrain = bluerain;
 var M = {
         settings: {
             COL_WIDTH: 20,
