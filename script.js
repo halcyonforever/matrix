@@ -1,9 +1,9 @@
 
-var customMessages = "DEVOPS";
-var customMessages1 = "BOISE";
+var customMessages = "DEVOPS BOISE";
+var customMessages1 = "DAVE HARRISON";
 var customMessages2 = "MICRON";
-var customMessages3 = "HELLO WORLD";
-var customMessages4 = "JANEMICELI";
+var customMessages3 = "MICROSOFT";
+var customMessages4 = "JANE MICELI";
 var pinkrain = 0;
 var greenrain = 104;
 var bluerain = 207;
