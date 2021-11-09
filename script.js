@@ -1,9 +1,9 @@
-var customMessages = "JANE"
-var customMessages1 = "TIM"
-var customMessages2 = "ARIA"
-var customMessages3 = "CONNOR"
-var customMessages4 = "MICELIS"
-const messages = ["JANE","TIM", "ARIA","CONNOR","MICELIS"]
+var customMessages = "JANE";
+var customMessages1 = "TIM";
+var customMessages2 = "ARIA";
+var customMessages3 = "CONNOR";
+var customMessages4 = "MICELIS";
+const messages = ["JANE","TIM", "ARIA","CONNOR","MICELIS"];
 //var customMessages=true;
 //var randomCharacters = true;
 var pinkrain = 0;
@@ -42,12 +42,12 @@ var M = {
         init: function () {
             "use strict";
             M.c = document.getElementById('canvas');
-			//M.c = document.createElement('canvas');
+            //M.c = document.createElement('canvas');
             if (typeof(G_vmlCanvasManager) != 'undefined') {
                 M.c = G_vmlCanvasManager.initElement('canvas');
-			} else {
+            } else {
                 M.c = document.getElementById('canvas');
-			}
+            }
             M.ctx = M.c.getContext('2d');
             M.c.width = M.WIDTH;
             M.c.height = M.HEIGHT;
@@ -156,10 +156,10 @@ var M = {
         ,
         CheckArray: function (codeLength, array, column, lettersLength) {
             "use strict";
-            array.forEach(item => {
-                if (item.length == codeLength -1) {
+            array.forEach((item) => {
+                if (item.length == codeLength - 1) {
                     M.insertCustomMessages(codeLength, item, column);
-                } 
+                }
                 else {
                     M.randomMessage(codeLength, column, lettersLength);
                 }
@@ -167,14 +167,14 @@ var M = {
         },
         insertCustomMessages: function (codeLength, message, column) {
             "use strict";
-            for (var i = 1; i <= codeLength; i = i + 1) {
+            for (i = 1; i <= codeLength; i = i + 1) {
                 var reverseString = message.split('').reverse().join('');
                 M.codes[column][i] = reverseString.substring(i - 1, i);
             }
         },
         randomMessage:function (codeLength, column, lettersLength)  {
             "use strict";
-            for (var i = 1; i <= codeLength; i = i + 1) {
+            for (i = 1; i <= codeLength; i = i + 1) {
                 var newLetter = M.randomFromInterval(0, (lettersLength - 1));
                 M.codes[column][i] = M.letters[newLetter];
             }
@@ -256,12 +256,12 @@ var M = {
         },
         assignColumn: function () {
             "use strict";
-		    var randomColumn = M.randomFromInterval(0, (M.COLUMNS - 1));
-		    return randomColumn;
-	    },
+            var randomColumn = M.randomFromInterval(0, (M.COLUMNS - 1));
+            return randomColumn;
+        },
         randomFromInterval: function (from, to) {
-	        "use strict";
-	        return Math.floor(Math.random() * (to - from + 1 ) + from);
+            "use strict";
+            return Math.floor(Math.random() * (to - from + 1 ) + from);
         },
         snapshot: function () {
             "use strict";
