@@ -1,11 +1,3 @@
-
-<<<<<<< HEAD
-var customMessages = "DEVOPS BOISE";
-var customMessages1 = "DAVE HARRISON";
-var customMessages2 = "MICRON";
-var customMessages3 = "MICROSOFT";
-var customMessages4 = "JANE MICELI";
-=======
 var customMessages = "JANE"
 var customMessages1 = "TIM"
 var customMessages2 = "ARIA"
@@ -14,17 +6,12 @@ var customMessages4 = "MICELIS"
 const messages = ["JANE","TIM", "ARIA","CONNOR","MICELIS"]
 //var customMessages=true;
 //var randomCharacters = true;
->>>>>>> gh-pages
 var pinkrain = 0;
 var greenrain = 104;
 var bluerain = 207;
 var purplerain = 255;
 
-<<<<<<< HEAD
 var colorrain = bluerain;
-=======
-var colorrain = greenrain;
->>>>>>> gh-pages
 
 var M = {
         settings: {
