@@ -168,6 +168,7 @@ var M = {
                 text = M.codes[i][j];
                 newCtx.globalCompositeOperation = 'source-over';
                 //newCtx.font = '30px matrix-code';
+		newCtx.font = '32px Carrois Gothic';
                 if (j < 5) {
                     newCtx.shadowColor = 'hsla(' + colorrain + ', 79%, 72%)';
                     newCtx.shadowOffsetX = 0;
