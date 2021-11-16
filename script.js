@@ -1,4 +1,4 @@
-const messages = ["ETHEREUM", "BITCOIN","CONNOR", "JANE ", "MICELI "]
+const messages = ["ETHEREUM", "BITCOIN","NEWS", "IOT  ", "Status "]
 
 var yellowrain = 50;
 var greenrain = 104;
