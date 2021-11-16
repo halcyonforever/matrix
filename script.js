@@ -1,4 +1,4 @@
-const messages = ["ETHEREUM$432197", "BITCOIN$60754.80","NEWS", "IOT", "STATUS"]
+const messages = ["ETHEREUM $4,321.97", "BITCOIN $60,754.80","NEWS", "IOT", "STATUS"]
 
 var yellowrain = 50;
 var greenrain = 104;
