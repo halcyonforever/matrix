@@ -191,20 +191,6 @@ var M = {
             }
             M.codes[i][0].canvas = newCanv;
         },
-        swapCharacters: function () {
-            "use strict";
-            var randomCodeIndex, randomCode, randomCodeLen, randomCharIndex, newRandomCharIndex, newRandomChar, i = 0;
-            for (i = 0; i < 20; i += 1) {
-                randomCodeIndex = M.randomFromInterval(0, (M.codes.length - 1));
-                randomCode = M.codes[randomCodeIndex];
-                randomCodeLen = randomCode.length;
-                randomCharIndex = M.randomFromInterval(2, (randomCodeLen - 1));
-                newRandomCharIndex = M.randomFromInterval(0, (M.letters.length - 1));
-                newRandomChar = M.letters[newRandomCharIndex];
-                randomCode[randomCharIndex] = newRandomChar;
-            }
-            M.swapCharacters();
-        },
         createLines: function () {
             "use strict";
             M.linesC = document.createElement('canvas');
