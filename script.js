@@ -1,4 +1,4 @@
-const messages = ["ETHEREUM432197", "BITCOIN$60754.80","NEWS", "IOT", "STATUS"]
+const messages = ["ETHEREUM $432197", "BITCOIN $60754.80","NEWS", "IOT", "STATUS"]
 
 var yellowrain = 50;
 var greenrain = 104;
@@ -143,7 +143,8 @@ var M = {
             "use strict";
 
             for (var i = 1; i <= codeLength; i = i + 1) {
-                var reverseString = message.split('').reverse().join('');
+                //var reverseString = message.split('').reverse().join('');
+		var reverseString = message.split('').join('');    
                 M.codes[column][i] = reverseString.substring(i - 1, i);
             }
 
