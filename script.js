@@ -18,7 +18,7 @@ var M = {
             },
             CODE_LENGTH_PARAMS: {
                 min: 4,
-                max: 10
+                max: 20
             }
         },
         animation: null,
