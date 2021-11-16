@@ -1,7 +1,7 @@
-var customMessages = "JANE";
-var customMessages1 = "TIM";
-var customMessages2 = "ARIA";
-var customMessages3 = "CONNOR";
+var customMessages = "ETHEREUM";
+var customMessages1 = "BITCOIN";
+var customMessages2 = "News";
+var customMessages3 = "Device Status";
 var customMessages4 = "MICELIS";
 const messages = ["JANE","TIM", "ARIA","CONNOR","MICELIS"];
 //var customMessages=true;
